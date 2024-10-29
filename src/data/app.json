@@ -29,7 +29,7 @@
           
             {
                 "label": "Services",
-                "link": "/projects",
+                "link": "/",
                 "children": [
                     {
                         "label": "Social Media Marketing",
@@ -140,35 +140,44 @@
     },
     "social": [
         {
-            "link": "https://facebook.com",
+            "link": "https://www.facebook.com/brightmediaglobal/",
             "title": "Facebook"
         },
+       
         {
-            "link": "https://twitter.com",
-            "title": "Twitter"
-        },
-        {
-            "link": "https://instagram.com",
+            "link": "https://www.instagram.com/brightmedia.tech/",
             "title": "Instagram"
         },
         {
-            "link": "https://youtube.com",
+            "link": "https://www.linkedin.com/company/brightmedia-tech/",
+            "title": "Linkdin"
+        },
+        {
+            "link": "https://www.youtube.com/@MoideenShahil",
             "title": "Youtube"
         }
     ],
     "projects": {
         "categories": [
             {
-                "name": "Architecture",
+                "name": "Social Media Marketing",
                 "slug": "architecture"
             },
             {
-                "name": "Interior",
+                "name": "Paid Ads",
                 "slug": "interior"
             },
             {
-                "name": "Decor",
+                "name": "Web Development",
                 "slug": "decor"
+            },
+            {
+                "name": " Branding",
+                "slug": "Branding"
+            },
+            {
+                "name": "PHOTOGRAPHY & VIDEOGRAPHY",
+                "slug": "PHOTOGRAPHY"
             }
         ]
     },
