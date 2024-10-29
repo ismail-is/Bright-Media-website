@@ -59,7 +59,7 @@ const Map = ({ categories }) => {
                        
                         <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between', gap: '10px' }}>
     <div style={{ flex: '1 1 calc(25% - 10px)', marginBottom: '20px' }}>
-        <Link href="#" className="mil-portfolio-item-2 mil-long-item mil-mb-30">
+        <Link href="/" className="mil-portfolio-item-2 mil-long-item mil-mb-30">
             <img src="https://via.placeholder.com/300x600" alt="Project 2" style={{ maxWidth: '100%', height: 'auto' }} />
             <div className="mil-project-descr">
                 {/* <h3 className="mil-upper mil-mb-30">Lorem Ipsum 2</h3> */}
@@ -74,7 +74,7 @@ const Map = ({ categories }) => {
         </Link>
     </div>
     <div style={{ flex: '1 1 calc(25% - 10px)', marginBottom: '20px' }}>
-        <Link href="#" className="mil-portfolio-item-2 mil-long-item mil-mb-30">
+        <Link href="/" className="mil-portfolio-item-2 mil-long-item mil-mb-30">
             <img src="https://via.placeholder.com/300x600" alt="Project 2" style={{ maxWidth: '100%', height: 'auto' }} />
             <div className="mil-project-descr">
                 {/* <h3 className="mil-upper mil-mb-30">IVORY COAST</h3> */}
@@ -89,7 +89,7 @@ const Map = ({ categories }) => {
         </Link>
     </div>
     <div style={{ flex: '1 1 calc(25% - 10px)', marginBottom: '20px' }}>
-        <Link href="#" className="mil-portfolio-item-2 mil-long-item mil-mb-10">
+        <Link href="/" className="mil-portfolio-item-2 mil-long-item mil-mb-10">
             <img src="https://via.placeholder.com/300x600" alt="Project 2" style={{ maxWidth: '100%', height: 'auto' }} />
             <div className="mil-project-descr">
                 {/* <h3 className="mil-upper mil-mb-30">Lorem Ipsum 2</h3> */}
@@ -104,7 +104,7 @@ const Map = ({ categories }) => {
         </Link>
     </div>
     <div style={{ flex: '1 1 calc(25% - 10px)', marginBottom: '20px' }}>
-        <Link href="#" className="mil-portfolio-item-2 mil-long-item mil-mb-10">
+        <Link href="/" className="mil-portfolio-item-2 mil-long-item mil-mb-10">
             <img src="https://via.placeholder.com/300x600" alt="Project 2" style={{ maxWidth: '100%', height: 'auto' }} />
             <div className="mil-project-descr">
                 {/* <h3 className="mil-upper mil-mb-30">Lorem Ipsum 2</h3> */}
