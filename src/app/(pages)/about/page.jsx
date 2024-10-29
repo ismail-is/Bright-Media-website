@@ -33,7 +33,7 @@ const About = () => {
       {/* <CompanyTwoSlider /> */}
       <ProcessSlider paddingTop={"0"} />
       {/* <CompanySlider /> */}
-      {/* <OurTeam/> */}
+      <OurTeam/>
       <PartnersSlider bgStyle={"soft"} />
       <ContactInfoSection />
       
