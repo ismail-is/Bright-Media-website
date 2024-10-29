@@ -101,4 +101,4 @@ const OurTeam = ({ categories }) => {
     );
 };
 
-export default OurTeam;
+export default OurTeam
