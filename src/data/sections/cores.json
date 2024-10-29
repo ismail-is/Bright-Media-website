@@ -1,32 +1,28 @@
 {
     "bg_image": "/img/photo/3.jpg",
-    "title": "Whole difference",
-    "subtitle": "Our Core",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua quis ipsum suspendisse ultrices gravida.",
+    "title": "Create Brand Identities & Digital Experiencesss",
+    "subtitle": "OUR Experiences",
+    "description": "Designing impactful brand identities and engaging digital experiences to elevate your online presence and drive business success.",
     "button": {
-        "link": "/services",
+        "link": "/projects",
         "label": "Read More"
     },
     "items": [
         {
-            "title": "Team of Experts",
-            "text": "Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
+            "title": "Personalized Strategies",
+            "text": "At Bright Media, we understand that one size doesn't fit all. We develop customized strategies tailored to each client's unique goals and target audience."
         },
         {
-            "title": "Creativity and Innovation",
-            "text": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
+            "title": "Insight-Driven Decisions",
+            "text": "Our strategies are backed by thorough research and analysis. We leverage data-driven insights to make informed decisions and optimize campaign performance for maximum results."
         },
         {
-            "title": "Technology",
-            "text": "Netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
+            "title": "Creative Brilliance",
+            "text": "Creativity is at the heart of everything we do. Our team of skilled professionals crafts compelling content and visually stunning designs that captivate audiences and drive engagement."
         },
         {
-            "title": "Sustainability",
-            "text": "Malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
-        },
-        {
-            "title": "Honesty and Transparency",
-            "text": "Fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
+            "title": "Ongoing Optimization",
+            "text": "We believe in the power of continuous improvement. We closely monitor campaign performance, analyze results, and refine strategies to ensure ongoing success and ROI for our clients."
         }
     ]
 }

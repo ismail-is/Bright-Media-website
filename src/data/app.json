@@ -1,7 +1,7 @@
 {
     "settings": {
-        "siteName": "Ruizarch",
-        "siteDescription": "Architecture React Next.JS Template",
+        "siteName": "Bright Media",
+        "siteDescription": "Digital Marketing Agency",
         "formspreeURL": "https://formspree.io/f/your_api_key",
         "mailchimp": {
             "url": "",
@@ -11,130 +11,131 @@
     },
     "header": {
         "logo": {
-            "image": "/img/logo/logo-light.png",
+            "image": "./img/logos/BM Logo.webp",
             "alt": "Logo"
         },
         "menu": [
             {
                 "label": "Home",
                 "link": "/",
+                "children": 0
+            },
+            {
+                "label": "About Us",
+                "link": "/about",
+                "children": 0
+            },
+          
+          
+            {
+                "label": "Services",
+                "link": "/projects",
                 "children": [
                     {
-                        "label": "Homepage 1",
-                        "link": "/"
+                        "label": "Social Media Marketing",
+                        "link": "/socialMedia"
                     },
                     {
-                        "label": "Homepage 2",
-                        "link": "/home-2"
+                        "label": "Branding",
+                        "link": "/branding"
                     },
                     {
-                        "label": "Homepage 3",
-                        "link": "/home-3"
+                        "label": "Web Development",
+                        "link": "/web"
+                    },
+                    {
+                        "label": "SEO",
+                        "link": "/seo"
+                    },
+                    {
+                        "label": "Paid Ads",
+                        "link": "/paidAds"
+                    },
+                    {
+                        "label": "PHOTOGRAPHY & VIDEO Production",
+                        "link": "/photoAndVideography"
                     }
                 ]
             },
+            {
+                "label": "projects",
+                "link": "/projects",
+                "children": 0
+            },
+            
+            {
+                "label": "Contact Us",
+                "link": "/contact",
+                "children": 0
+            }
+          
+        ]
+    },
+    "footer": {
+        "logo": {
+            "image": "./img/logos/footerlogo.webp",
+            "alt": "Logo"
+        },
+        "copy": "© 2023 Ruizarch. All rights reserved.",
+       "menu": [
+            {
+                "label": "Home",
+                "link": "/",
+                "children": 0
+            },
+            {
+                "label": "About Us",
+                "link": "/about",
+                "children": 0
+            },
+           
             {
                 "label": "Services",
                 "link": "/services",
                 "children": [
                     {
-                        "label": "Services List",
-                        "link": "/services"
+                        "label": "Social Media Marketing",
+                        "link": "/socialMedia"
                     },
                     {
-                        "label": "Single Service",
-                        "link": "/services/service-1"
+                        "label": "Branding",
+                        "link": "/branding"
+                    },
+                    {
+                        "label": "Web Development",
+                        "link": "/web"
+                    },
+                    {
+                        "label": "SEO",
+                        "link": "/seo"
+                    },
+                    {
+                        "label": "Paid Ads",
+                        "link": "/paidAds"
+                    },
+                    
+                  
+                   
+                    
+                    {
+                        "label": "PHOTOGRAPHY & VIDEO Production",
+                        "link": "/photoAndVideography"
                     }
                 ]
             },
             {
                 "label": "Projects",
                 "link": "/projects",
-                "children": [
-                    {
-                        "label": "Projects Grid",
-                        "link": "/projects"
-                    },
-                    {
-                        "label": "Single Project",
-                        "link": "/projects/project-1"
-                    }
-                ]
+                "children": 0
             },
-            {
-                "label": "Blog",
-                "link": "/blog",
-                "children": [
-                    {
-                        "label": "Blog list",
-                        "link": "/blog"
-                    },
-                    {
-                        "label": "Publication",
-                        "link": "/blog/the-infrastructure-that-powers-the-world"
-                    }
-                ]
-            },
+          
+          
             {
                 "label": "Contact Us",
                 "link": "/contact",
                 "children": 0
-            },
-            {
-                "label": "Other",
-                "link": "/team",
-                "children": [
-                    {
-                        "label": "About",
-                        "link": "/about"
-                    },
-                    {
-                        "label": "Team",
-                        "link": "/team"
-                    },
-                    {
-                        "label": "Team Member",
-                        "link": "/team/team-01"
-                    },
-                    {
-                        "label": "Coming Soon",
-                        "link": "/coming-soon"
-                    },
-                    {
-                        "label": "404",
-                        "link": "/404"
-                    }
-                ]
             }
-        ]
-    },
-    "footer": {
-        "logo": {
-            "image": "/img/logo/logo-light.png",
-            "alt": "Logo"
-        },
-        "copy": "© 2023 Ruizarch. All rights reserved.",
-        "menu": [
-            {
-                "label": "About",
-                "link": "/about"
-            },
-            {
-                "label": "Services",
-                "link": "/services"
-            },
-            {
-                "label": "Projects",
-                "link": "/projects"
-            },
-            {
-                "label": "Blog",
-                "link": "/blog"
-            },
-            {
-                "label": "Contact",
-                "link": "/contact"
-            }
+         
         ]
     },
     "social": [

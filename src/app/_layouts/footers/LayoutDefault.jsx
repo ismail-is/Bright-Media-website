@@ -36,26 +36,27 @@ const DefaultFooter = () => {
 
                         </div>
                         <div className="col-md-6 col-lg-6 col-xl-3">
-                            <span className="mil-suptitle mil-light mil-upper mil-up mil-mb-30">Wills Point</span>
-                            <p className="mil-text-sm mil-up mil-light-soft mil-mb-30">8619 S Wolcott Avenue <br/>Floor 202 <br/>Chicago, IL 60620 <br/>(773) 238 - 7162</p>
+                            <span className="mil-suptitle mil-light mil-upper mil-up mil-mb-30">INDIA</span>
+                            <p className="mil-text-sm mil-up mil-light-soft mil-mb-30">2nd floor, Regal Park, Mission Street, State Bank, Mangalore 575001</p>
                         </div>
                         <div className="col-md-6 col-lg-6 col-xl-3">
-                            <span className="mil-suptitle mil-light mil-upper mil-up mil-mb-30">Chicago</span>
-                            <p className="mil-text-sm mil-up mil-light-soft mil-mb-30">10233 Gaillard Lake Est <br/>Suite 420 <br/>Houston, TX 75169 <br/>(903) 560 - 9830</p>
+                            <span className="mil-suptitle mil-light mil-upper mil-up mil-mb-30">IVORY COAST</span>
+                            <p className="mil-text-sm mil-up mil-light-soft mil-mb-30">11 BP 2498- 11, 4th Floor, Waimea Bldg, Marcory Boulevard VGE, Abidjan, Côte d'Ivoire</p>
                         </div>
                         <div className="col-md-6 col-lg-6 col-xl-3">
-                            <span className="mil-suptitle mil-light mil-upper mil-up mil-mb-30">Harriman</span>
-                            <p className="mil-text-sm mil-up mil-light-soft mil-mb-30">5 Harriman Woods Dr <br/>Suite 702 <br/>New York, NY 10926 <br/>(570) 253 - 2853</p>
+                            <span className="mil-suptitle mil-light mil-upper mil-up mil-mb-30">UAE</span>
+                            <p className="mil-text-sm mil-up mil-light-soft mil-mb-30">Business Centre, Sharjah Publishing City Free Zone, Sharjah, United Arab Emirates</p>
                         </div>
                         <div className="col-md-6 col-lg-6 col-xl-3">
-                            <span className="mil-suptitle mil-light mil-upper mil-up mil-mb-30">Largo</span>
-                            <p className="mil-text-sm mil-up mil-light-soft mil-mb-30">1071 Donegan Rd <br/>Suite 1300 <br/>Florida, FL 33771 <br/>(727) 223 - 5371</p>
+                            <span className="mil-suptitle mil-light mil-upper mil-up mil-mb-30">QATAR</span>
+                            <p className="mil-text-sm mil-up mil-light-soft mil-mb-30">
+                            Doha-Qatar </p>
                         </div>
                     </div>
                 </div>
                 <div className="col-lg-4">
                     <Link href="/" className="mil-footer-logo mil-up mil-mb-30">
-                        <img src={AppData.footer.logo.image} alt={AppData.footer.logo.alt} style={{"width": "130px"}} />
+                        <img src='./img/logos/footerlogo.webp' alt={AppData.footer.logo.alt} style={{"width": "220px"}} />
                     </Link>
                 </div>
             </div>
@@ -63,16 +64,16 @@ const DefaultFooter = () => {
         <div className="container-fluid">
 
             <div className="mil-footer-bottom">
-                <p className="mil-light-soft mil-mb-15">{AppData.footer.copy}</p>
+                <p className="mil-light-soft mil-mb-15">© 2024 All Right Recived <Link href='https://brightmedia.tech/'  target="_blank" ><span style={{color:'#BCFF00'}}>BRIGHT MEDIA</span> </Link></p>
                 <ul className="mil-light-soft mil-mb-15">
                     {AppData.social.map((item, key) => (
                     <li key={`footer-social-item-${key}`}><a href={item.link} target="_blank">{item.title}</a></li>
                     ))}
                 </ul>
-                <ul className="mil-light-soft mil-mb-15">
+                {/* <ul className="mil-light-soft mil-mb-15">
                     <li><a href="#.">Our App</a></li>
                     <li><a href="#.">Sitemap</a></li>
-                </ul>
+                </ul> */}
             </div>
 
         </div>

@@ -24,7 +24,7 @@ const HeroOne = () => {
                         <div className="row align-items-end">
                             <div className="col-xl-7">
                                 <div className="mil-mb-90">
-                                    <span className="mil-suptitle mil-light mil-upper mil-mb-60">{Data.subtitle}</span>
+                                    {/* <span className="mil-suptitle mil-light mil-upper mil-mb-60">{Data.subtitle}</span> */}
                                     <h1 className="mil-upper mil-light mil-mb-60" dangerouslySetInnerHTML={{__html : Data.title}} />
                                     <Link href={Data.button.link} className="mil-link mil-light mil-upper">{Data.button.label} <span className="mil-arrow"><img src="img/icons/1.svg" alt="arrow" /></span></Link>
                                 </div>
