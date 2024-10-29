@@ -8,6 +8,7 @@ import AwardsSection from "@components/sections/Awards";
 import CallToActionTwoSection from "@components/sections/CallToActionTwo";
 import ContactInfoSection from "@components/sections/ContactInfo";
 import ServicesTwoSection from "@components/sections/ServicesTwo";
+import OurTeam from "../../_components/sliders/OurTeam";
 
 const PartnersSlider = dynamic( () => import("@components/sliders/Partners"), { ssr: false } );
 const TestimonialSlider = dynamic( () => import("@components/sliders/Testimonial"), { ssr: false } );
@@ -26,15 +27,19 @@ const About = () => {
   return (
     <>
       <PageBanner pageTitle={"About us"} breadTitle={"About"} bgImage={"/img/photo/12.jpg"} />
-      <ServicesTwoSection />
-      <ContactInfoSection />
-      <CompanyTwoSlider />
-      <ProcessSlider paddingTop={"0"} />
+      {/* <ServicesTwoSection /> */}
+      
       <CompanySlider />
+      {/* <CompanyTwoSlider /> */}
+      <ProcessSlider paddingTop={"0"} />
+      {/* <CompanySlider /> */}
+      {/* <OurTeam/> */}
       <PartnersSlider bgStyle={"soft"} />
-      <AwardsSection />
-      <TestimonialSlider showPartners={0} />
-      <CallToActionTwoSection />
+      <ContactInfoSection />
+      
+      {/* <AwardsSection /> */}
+      {/* <TestimonialSlider showPartners={0} /> */}
+      {/* <CallToActionTwoSection /> */}
     </>
   );
 };
